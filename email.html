@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send Email</title>
+  </head>
+  <body>
+    <style>
+      form {
+        display: flex;
+        align-items: center;
+        margin-top: 23%;
+        justify-content: center;
+      }
+      input {
+        font-size: 20px;
+        margin: 30px;
+      }
+      button {
+        padding: 15px;
+      }
+    </style>
+
+    <form
+      action="https://formsubmit.co/markemmanuel657531@gmail.com"
+      method="POST"
+    >
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="name" name="email" placeholder="Enter Your Email" required />
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Email for Developer Mark"
+      />
+      <input
+        type="text"
+        name="name"
+        placeholder="Write Your Massege"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
